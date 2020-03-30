@@ -24,3 +24,9 @@ Already done:
 <li>Import dataset</li>
 <li>Model like LeNet-5</li>
 <ul>
+
+## File description
+
+main.ipynb: LeNet-5 model to classify handwritten digits
+2images.ipynb: Actual model that compares two handwritten digits
+dlc_practical_prologue.py: Functions to import dataset properly
