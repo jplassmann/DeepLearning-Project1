@@ -1,6 +1,6 @@
 # DeepLearning - Project #1 - Compare two Handwritten digits
 
-Libraries used: 
+## Libraries used: 
 
 <ul>
 <li>NumPy</li>
@@ -9,7 +9,7 @@ Libraries used:
 </ul>
 
 
-TO DO:
+## TO DO:
 
 <ul>
 <li>Increase data by changing images</li>
@@ -18,7 +18,7 @@ TO DO:
 
 
 
-Already done:
+## Already done:
 
 <ul>
 <li>Import dataset</li>
