@@ -23,7 +23,7 @@
 <ul>
 <li>Import dataset</li>
 <li>Model like LeNet-5</li>
-<ul>
+</ul>
 
 
 
