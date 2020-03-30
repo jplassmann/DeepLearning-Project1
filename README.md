@@ -27,7 +27,7 @@
 
 
 
-## File description
+## File description:
 
 <ul>
 <li>main.ipynb: LeNet-5 model to classify handwritten digits</li>
