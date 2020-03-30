@@ -26,7 +26,8 @@
 <ul>
 
 ## File description
-
-main.ipynb: LeNet-5 model to classify handwritten digits
-2images.ipynb: Actual model that compares two handwritten digits
-dlc_practical_prologue.py: Functions to import dataset properly
+<ul>
+<li>main.ipynb: LeNet-5 model to classify handwritten digits</li>
+<li>2images.ipynb: Actual model that compares two handwritten digits</li>
+<li>dlc_practical_prologue.py: Functions to import dataset properly</li>
+</ul>
