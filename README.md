@@ -25,7 +25,10 @@
 <li>Model like LeNet-5</li>
 <ul>
 
+
+
 ## File description
+
 <ul>
 <li>main.ipynb: LeNet-5 model to classify handwritten digits</li>
 <li>2images.ipynb: Actual model that compares two handwritten digits</li>
