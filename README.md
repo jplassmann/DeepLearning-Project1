@@ -12,9 +12,9 @@
 ## TO DO:
 
 <ul>
-<li>Increase data by changing images</li>
-<li>Try new architectures</li>
-</ul>
+<li>Faire une architecture un peu nul sans weight sharing: reprendre le modèle déjà fait et mettre deux channels d'entrée au premier conv layer pour faire rentrer les deux images dedans directement</li>
+<li>Faire une architecture en utilisant les classes des nombres: reprendre le modèle déjà fait et rajouter derriere la partie avec les conv nets un layer avec 10 neuronnes qui représentent les 10 classes de nombres, puis deriière ça le dernier neuronnes qui représente notre output finale. utiliser Auxialiary Loss. </li>
+</dl>
 
 
 
@@ -22,7 +22,6 @@
 
 <ul>
 <li>Import dataset</li>
-<li>Model like LeNet-5</li>
 </ul>
 
 
