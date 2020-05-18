@@ -208,9 +208,3 @@ class Net4(nn.Module):
         digit1 = F.log_softmax(self.fc5(z),dim=1)
         digit2 = F.log_softmax(self.fc5(z),dim=1)
         return torch.cat((pred, digit1, digit2), 1)
-
-if __name__ == "__main__":
-    input = torch.ones((100,2,14,14))
-    print(input.size())
-    net = Net4()
-    print(net(input).size())
