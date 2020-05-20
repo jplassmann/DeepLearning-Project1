@@ -3,7 +3,6 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-import torchsummary
 
 class Net1(nn.Module):
     """First model used for the project, the simplest one.
@@ -155,9 +154,9 @@ class Net3(nn.Module):
         return torch.cat((pred, digit1, digit2), 1)
 
 class Net4(nn.Module):
-    """Third model, we use the label of the digits as an auxiliary loss.
+    """Fourth model, we also use the label of the digits as an auxiliary loss.
 
-        This fourth model adds batch normalisation on top of the thrid model.
+        This fourth model adds batch normalisation on top of the third model.
         The network then has 3 outputs:
             - A single neuron to predict which digit is the largest.
             - Two softmax outputs two predict the labels of the 2 images. These
