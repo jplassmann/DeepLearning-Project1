@@ -12,8 +12,8 @@
 ## File description:
 
 <ul>
-<li>models.py: definition of four different models</li>
-<li>main.ipynb: LeNet-5 model to classify handwritten digits</li>
+<li>models.py: Definition of four different models</li>
+<li>main.ipynb: Train function and results visualization</li>
 <li>dlc_practical_prologue.py: Functions to import dataset properly</li>
 </ul>
 
