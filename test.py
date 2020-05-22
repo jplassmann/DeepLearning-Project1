@@ -1,11 +1,12 @@
 """IMPORT + SETTINGS"""
 
 import torch
-
+torch.manual_seed(0)
 from torch import nn
 from torch.nn import functional as F
 from torch import optim
 from torchvision import datasets
+
 from statistics import mean
 from statistics import stdev
 
@@ -13,11 +14,9 @@ import dlc_practical_prologue as prologue
 import matplotlib.pyplot as plt
 plt.rcParams['pdf.fonttype'] = 42
 plt.rcParams['ps.fonttype'] = 42
+
 import time
-
 import models
-
-torch.manual_seed(0)
 
 def generate_dataset():
     """ Computation of the number of wrong classifications.
@@ -134,12 +133,12 @@ if __name__=="__main__":
     print("We recommend using default values by pressing the ENTER key.")
     print("")
     #We do not do sophisticated input validation because it is not the goal of this exercise
-    choice = int(input("Please choose to run models over one round (0) or multiple rounds (1) [DEFAULT = 1] :") or "1")
+    choice = int(input("Please choose to run models over one round (0) or multiple rounds (1) [DEFAULT = 1] : ") or "1")
 
     if choice == 0:
 
         nb_epoch = 30
-        nb_epoch = int(input("Please input how many epochs you want to train over [DEFAULT = 30] :") or "30")
+        nb_epoch = int(input("Please input how many epochs you want to train over [DEFAULT = 30] : ") or "30")
         print("")
 
         train_input, train_target, test_input, test_target, train_classes = generate_dataset()
@@ -167,8 +166,8 @@ if __name__=="__main__":
 
     else:
 
-        nb_epoch = int(input("Please input how many epochs you want to train over [DEFAULT = 30] :") or "30")
-        nb_round = int(input("Please input how many rounds of training you want to perform [DEFAULT = 10] :") or "10")
+        nb_epoch = int(input("Please input how many epochs you want to train over [DEFAULT = 30] : ") or "30")
+        nb_round = int(input("Please input how many rounds of training you want to perform [DEFAULT = 10] : ") or "10")
         print("")
 
         test_accuracy_1 = []
@@ -222,7 +221,7 @@ if __name__=="__main__":
         print(f"Mean Test Accuracy [%]: {mean([row[-1] for row in test_accuracy_4]):.2f} / STD [%]: {stdev([row[-1] for row in test_accuracy_4]):.2f} / Total Time [s]: {t_tot:.2f} / Mean Time [s]: {t_tot/nb_round:.2f}")
         print("")  
 
-        choice_plot = int(input("Do you want to plot the results, YES = 1, NO = 0 [DEFAULT = 1] :") or "1")
+        choice_plot = int(input("Do you want to plot the results, YES = 1, NO = 0 [DEFAULT = 1] : ") or "1")
 
         if choice_plot == 1:
 
@@ -277,14 +276,3 @@ if __name__=="__main__":
 
     print("")
     print("*** End of file, thank you ! ***")
-
-
-
-
-
-
-
-
-
-
-
