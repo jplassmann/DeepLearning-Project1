@@ -129,7 +129,7 @@ def train_model(model, train_input, train_target, test_input, test_target,
 if __name__=="__main__":
 
     print("")
-    print("Mini Project 1 - Deep Learning (EE-559) - PILLONEL Ken (270852) - PLASSMANN Jeremy (2739081)")
+    print("Mini Project 1 - Deep Learning (EE-559) - PILLONEL Ken (270852) - PLASSMANN Jeremy (273908)")
     print("")
     print("We recommend using default values by pressing the ENTER key.")
     print("")
